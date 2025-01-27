@@ -4,7 +4,7 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 sudo apt update -y
-wget -O /etc/logo.sh https://raw.githubusercontent.com/Azumi67/UDP2RAW_FEC/main/logo.sh
+wget -O /etc/logo.sh https://raw.githubusercontent.com/69learn/UDP2RAW_FEC_AZUMI/refs/heads/main/logo.sh
 chmod +x /etc/logo.sh
 
 architecture=$(uname -m)
